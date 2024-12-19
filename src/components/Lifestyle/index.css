@@ -1,0 +1,15 @@
+.title-news-first{
+    background: linear-gradient(20deg, rgba(65, 12, 188, 0.6), rgba(255, 111, 49, 0.6));   
+}
+
+.title-news-second{
+background: linear-gradient(20deg, rgba(244, 136, 13, 0.6), rgba(112, 255, 153, 0.6));
+}
+
+.title-news-third{
+    background: linear-gradient(20deg, rgba(196, 15, 121, 0.6), rgba(126, 191, 255, 0.6));
+}
+
+.title-news-forth{
+    background: linear-gradient(20deg, rgba(0, 22, 190, 0.6), rgba(42, 236, 116, 0.6));
+}
