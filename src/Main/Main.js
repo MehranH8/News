@@ -12,6 +12,7 @@ import Technologydetail from "../components/Technology/Technologydetail/Technolo
 import Topnavbar from "../components/Topnavbar/Topnavbar"
 import Sidedetail from "../Ui/Sidedetail/Sidedetail"
 import { Route, Routes } from "react-router-dom";
+import Page404 from "../Ui/Page404/Page404"
 
 
 
@@ -33,6 +34,7 @@ const Main = () => {
             <Route path="/technology" element={<Technology />} />
             <Route path="/technology/detail/:id" element={<Technologydetail />} />
             <Route path="/topnews" element={<Sidedetail />} />
+            <Route path="*" element={<Page404/>} />
             </Routes>
         </div>
     )

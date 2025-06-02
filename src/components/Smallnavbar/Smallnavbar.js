@@ -30,7 +30,9 @@ export function Smallnavbar() {
                     <button className="my-auto text-[24px] text-white" onClick={openDrawerRight}><FaBars /></button>
                 </div>
                 <div className="my-auto sm:mx-auto ">
+                    <Link to="/">
                     <img className="max-w-[150px]  sm:max-w-[250px] sm:-mr-8" src="https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/09/np10blue-white-retina.png.webp" alt="logo" />
+                    </Link>
                 </div>
 
             </div>
@@ -58,14 +60,14 @@ export function Smallnavbar() {
                     </IconButton>
                     <Typography variant="h5" color="blue-gray">
                         <div className="my-auto ">
-                            <Link to="/">
+                            <Link onClick={closeDrawerRight} to="/">
                                 <img className="" src="https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/09/np10blue-white-retina.png.webp" alt="logo" />
                             </Link>
                         </div>
                     </Typography>
                 </div>
                 <List>
-                    <Link to="/">
+                    <Link onClick={closeDrawerRight}  to="/">
                         <ListItem className="text-[16px] text-white">
                             <ListItemPrefix className="ml-3 text-[18px]">
                                 <FaNewspaper />
@@ -73,7 +75,7 @@ export function Smallnavbar() {
                             اخبار
                         </ListItem>
                     </Link>
-                    <Link to="/fashion">
+                    <Link onClick={closeDrawerRight}  to="/fashion">
                         <ListItem className="text-[16px] text-white">
                             <ListItemPrefix className="ml-3 text-[18px]">
                                 <GiClothes />
@@ -81,7 +83,7 @@ export function Smallnavbar() {
                             مد
                         </ListItem>
                     </Link>
-                    <Link to="/technology">
+                    <Link onClick={closeDrawerRight}  to="/technology">
                         <ListItem className="text-[16px] text-white">
                             <ListItemPrefix className="ml-3 text-[18px]">
                                 <GrTechnology />
@@ -89,7 +91,7 @@ export function Smallnavbar() {
                             تکنولوژی
                         </ListItem>
                     </Link>
-                    <Link to="/lifestyle">
+                    <Link  onClick={closeDrawerRight} to="/lifestyle">
                         <ListItem className="text-[16px] text-white">
                             <ListItemPrefix className="ml-3 text-[18px]">
                                 <RiPlantFill />
@@ -97,7 +99,7 @@ export function Smallnavbar() {
                             سبک زندگی
                         </ListItem>
                     </Link>
-                    <Link to="/movie">
+                    <Link onClick={closeDrawerRight}  to="/movie">
                         <ListItem className="text-[16px] text-white">
                             <ListItemPrefix className="ml-3 text-[18px]">
                                 <FaMoneyBillWave />

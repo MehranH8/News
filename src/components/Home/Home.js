@@ -846,9 +846,6 @@ const Home = () => {
                     </div>
                     {/*sidebar */}
                 </div>
-                {/*footer */}
-                <Footer />
-                {/*footer */}
             </div>
             {/*third */}
             {/*footer */}

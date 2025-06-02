@@ -55,7 +55,7 @@ const Fashion = () => {
             <div className="relative  bg-cover w-full bg-center h-full" style={{ backgroundImage: `url(https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/38.jpg)` }} >
                 <div className="w-full h-full bg-[#000] bg-opacity-60 absolute top-0"></div>
                 <div className="relative -top-[60%] mx-8 sm:mx-16 text-white flex flex-col flex-wrap  ">
-                    <h4 className="text-[30px] text-start font-bold mt-32 mb-8">مد و پوشاک</h4>
+                    <h4 className="text-[26px] text-start font-bold mt-32 mb-8">مد و پوشاک</h4>
                     <div className="grid grid-cols-2 sm:flex gap-y-2 sm:gap-y-0 gap-x-2 mb-8">
                         <Chip className="bg-[#f96945] text-[12px] py-1 max-w-[100px] rounded-none" value="استایل جدید" />
                         <Chip className="bg-[#f24d4d] text-[12px] py-1 max-w-[100px] rounded-none" value="مد و پوشاک" />
